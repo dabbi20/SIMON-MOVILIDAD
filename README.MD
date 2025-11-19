@@ -1,4 +1,4 @@
-🚕 NYC Taxi – Procesamiento de Viajes (Challenge Técnico)
+🚕 NYC Taxi – Procesamiento de Viajes (CPrueba Tecnica Simon Movilidad)
 
 Este repositorio contiene un script en Python que procesa un archivo de viajes en formato Parquet (similar al dataset de NYC Taxi) y genera dos reportes solicitados:
 
@@ -30,6 +30,7 @@ pip configurado
 Archivo .parquet con los viajes
 
 3. Instalación
+
    3.1 Clonar el repositorio
 
 git clone <https://github.com/dabbi20/SIMON-MOVILIDAD.git>.git
@@ -64,7 +65,9 @@ pyarrow
 ├── requirements.txt
 
 ├── outputs/
+
 │ ├── ultima_ubicacion.csv
+
 │ └── viajes_por_hora.csv
 └── docs/
 
@@ -153,7 +156,7 @@ Mejoras futuras
 
 9. Resumen rápido
 
-git clone <https://github.com/dabbi20/SIMON-MOVILIDAD.git>
+git clone <repo>
 cd <repo>
 pip install -r requirements.txt
 python process_data.py archivo.parquet
