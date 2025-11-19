@@ -32,8 +32,8 @@ Archivo .parquet con los viajes
 3. Instalación
    3.1 Clonar el repositorio
 
-git clone <URL_DE_TU_REPO>.git
-cd <CARPETA_DEL_REPO>
+git clone <https://github.com/dabbi20/SIMON-MOVILIDAD.git>.git
+
 
 3.2 (Opcional) Crear entorno virtual
 
@@ -58,12 +58,16 @@ pyarrow
 
 .
 ├── process_data.py
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── outputs/
 │ ├── ultima_ubicacion.csv
 │ └── viajes_por_hora.csv
 └── docs/
+
 └── presentacion.pdf
 
 5. Cómo ejecutar el script
@@ -149,7 +153,7 @@ Mejoras futuras
 
 9. Resumen rápido
 
-git clone <repo>
+git clone <https://github.com/dabbi20/SIMON-MOVILIDAD.git>
 cd <repo>
 pip install -r requirements.txt
 python process_data.py archivo.parquet
@@ -159,4 +163,4 @@ Esto genera:
 ultima_ubicacion.csv
 
 viajes_por_hora.csv
-# SIMON-MOVILIDAD
+
