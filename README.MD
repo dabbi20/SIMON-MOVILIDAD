@@ -1,4 +1,4 @@
-🚕 NYC Taxi – Procesamiento de Viajes (CPrueba Tecnica Simon Movilidad)
+🚕 NYC Taxi – Procesamiento de Viajes (Prueba Tecnica Simon Movilidad)
 
 Este repositorio contiene un script en Python que procesa un archivo de viajes en formato Parquet (similar al dataset de NYC Taxi) y genera dos reportes solicitados:
 
